@@ -1,0 +1,365 @@
+/*Configurações da Página*/
+body{
+	
+	padding:0;
+	height:100%;
+	width:75%;	
+}
+
+/*Configurações do Cabeçalho e Rodapé*/
+
+#Cabeçalho{
+	margin: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#Rodapé{
+	
+	position:relative;
+	bottom:0;
+	text-align:center;
+	font-family:Arial;
+	font-size: 11px;
+	
+}
+
+/*Configurações Menu Página Inicial*/
+
+/*Definiçoes Gerais*/
+#MenuLateral{
+	margin: 0;
+	padding: 0px;
+	width: 220px;
+	height: auto;
+}
+
+#MenuLateral ul{
+	list-style: none;
+}
+
+/*Definiçoes Listas*/
+#MenuLateral li{
+	margin: 0px;
+	padding: 0;
+	border-bottom: #999999 thin inset;
+}
+
+#MenuLateral a{
+	display: block;
+	text-decoration: none;
+	padding: 6px;
+	background-color: #A4A4A4;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+/*Configurações do Formulário da Página Cadastro*/
+
+legend{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+label{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+h1.titulo{
+	text-align: center;
+}
+
+input.DadosAluno{
+	padding: 3px;
+	width: 500px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+
+input.nmatricula{
+	padding: 3px;
+	width: 150px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+
+input.dadosend{
+	padding: 3px;
+	width: 500px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+
+input.numero{
+	padding: 3px;
+	width: 90px;
+	float: rigth;
+	left:800px;
+	position:absolute;
+}
+
+label.Sexo{
+	left:770px;
+	position:absolute;
+}
+
+input.SexoF{
+	float: rigth;
+	left:820px;
+	position:absolute;
+}
+
+input.SexoM{
+	float: rigth;
+	left:920px;
+	position:absolute;
+}
+
+label.Feminino{
+	float: rigth;
+	left:840px;
+	position:absolute;
+}
+
+label.Masculino{
+	float: rigth;
+	left:940px;
+	position:absolute;
+}
+
+label.RG{
+	
+}
+
+label.CPF{
+	float: rigth;
+	left:410px;
+	position:absolute;
+}
+
+input.RG{
+	padding: 3px;
+	width: 210px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+
+input.CPF{
+	padding: 3px;
+	width: 210px;
+	float: rigth;
+	left:460px;
+	position:absolute;
+}
+
+label.Celular{
+	float: rigth;
+	left:390px;
+	position:absolute;
+}
+
+input.Telefone{
+	padding: 3px;
+	width: 210px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+
+input.Celular{
+	padding: 3px;
+	width: 210px;
+	float: rigth;
+	left:460px;
+	position:absolute;
+}
+
+label.Fator{
+	padding-left:45px
+}
+
+label.numero{
+	left:770px;
+	position:absolute;
+}
+
+select.campocidade{
+	padding: 3px;
+	width: 500px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+
+select.UF{
+	padding: 3px;
+	width: 90px;
+	float: rigth;
+	left:800px;
+	position:absolute;
+}
+
+label.UF{
+	left:770px;
+	position:absolute;
+}
+
+input.Doc{
+	padding: 3px;
+	width: 150px;
+	float: rigth;
+	left:100px;
+	position:absolute;
+}
+
+input.Tel{
+	padding: 3px;
+	width: 150px;
+	float: rigth;
+	left:100px;
+	position:absolute;
+}
+
+input.senha{
+	padding: 3px;
+	width: 200px;
+	float: rigth;
+	left:170px;
+	position:absolute;
+}
+/*Configurações do Formulário da Página Matŕicula*/
+
+legend{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+label{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+h1.Mat{
+	text-align: center;
+}
+
+select.Dados{
+	padding: 5px;
+	width: 195px;
+	float: rigth;
+	left:190px;
+	position:absolute;
+}
+
+fieldset.Dados{
+	width: 550px;
+}
+
+input.Escolha{
+	width: 36px;
+	position:relative;
+	float: rigth;
+}
+
+/*Configurações do Formulário da Página Contato*/
+
+h1.Contato{
+	text-align:left;
+}
+
+ul.Contato{
+	margin:0;
+	border: 1px;
+	background:#A9D0F5;
+	height:auto%;
+	width:50%;	
+}
+
+input.Contato{
+	border: 1px solid #6495ED;
+	width: 290px;
+	position:relative;
+	float: rigth;
+	
+}
+
+textarea{
+	border: 1px solid #6495ED;
+}
+
+/*Configurações da Tabela da Página Lista de Presença*/
+
+h1.Lista{
+	text-align:center;
+}
+
+table.List, th, td {
+  border: 1px solid black;
+}
+
+table.List{
+  width: 100%;
+}
+
+/*Configurações do Formulário da Página Tabela*/
+
+table.Tabela{
+  width: 65%;
+}
+
+th {
+  text-align: center;
+  height: 50px;
+  background-color: #cccccc;
+}
+
+th.Cabecalho {
+  text-align: left;
+  background-color: DarkKhaki;
+  height: 50%;
+  border: 0px;
+}
+
+td {
+  text-align: left;
+}
+
+tr.Cabecalho{
+  color:white;
+}
+
+tr.Azul{
+  background-color: Blue;
+  color:white;
+}
+
+tr.Gray{
+  background-color: Gray;
+}
+
+tr.Cinza{
+  background-color: Gainsboro;
+}
+
+/*Configurações da Pagina Sucesso Cadastro*/
+
+h1.sucessocadastro{
+	text-align:center;
+	font-size: 100px;
+	color: gray;
+}
+
+/*Configurações da Pagina Sucesso Matrícula*/
+
+h1.sucessomatricula{
+	text-align:center;
+	font-size: 100px;
+	color: gray;
+}
